@@ -36,7 +36,7 @@
     "uuid": "3.0.1"
   },
   "optionalDependencies": {
-    "cryptoforknote-util": "git@bitbucket.org:coinshazbotnet/node-cryptoforknote-util.git",
-    "cryptonight-hashing": "git@bitbucket.org:coinshazbotnet/node-cryptonight-hashing.git#MoneroOcean-master"
+    "cryptoforknote-util": "git+https://github.com/MoneroOcean/node-cryptoforknote-util.git#v3.0.0",
+    "cryptonight-hashing": "git+https://github.com/MoneroOcean/node-cryptonight-hashing.git#v3.0.0"
   }
 }
