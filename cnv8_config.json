@@ -1,0 +1,113 @@
+{
+    "pools": [{
+        "hostname": "rsgraft.monkeypools.space",
+        "port": 6611,
+        "ssl": false,
+        "allowSelfSignedSSL": false,
+        "share":  100,
+        "username": "GBP7sqPTfwcRHq58MZpBVK1WGMzL6Mc3LAphg6QX47N9aEqNXfDFk32fjrt6spQYK6Avy6hX8N7anVxx1GK4qPsTPdu8p25",
+        "password": "xmrnodeproxy",
+        "keepAlive": true,
+        "algo": "cryptonight/1",
+        "coin": "cryptonightv8",
+        "default": true
+    },{
+        "hostname": "rslethean.monkeypools.space",
+        "port": 6713,
+        "ssl": false,
+        "allowSelfSignedSSL": false,
+        "share": 0,
+        "username": "iz5SsmUFif3f2ZBrpE7WmfLASjDkYL2QRLG9x7AmN6gjWUPjx6Qgir9LtXYYvy7oFQgCAKkzD3st5HuT6xu6USh8164uHY7jG",
+        "password": "xmrnodeproxy",
+        "keepAlive": true,
+        "algo": "cryptonight/1",
+        "coin": "cryptonightv8",
+        "default": false
+    },{
+        "hostname": "graft.miningpools.pro",
+        "port": 6622,
+        "ssl": false,
+        "allowSelfSignedSSL": false,
+        "share":  0,
+        "username": "GBP7sqPTfwcRHq58MZpBVK1WGMzL6Mc3LAphg6QX47N9aEqNXfDFk32fjrt6spQYK6Avy6hX8N7anVxx1GK4qPsTPdu8p25",
+        "password": "xmrnodeproxy",
+        "keepAlive": true,
+        "algo": "cryptonight/1",
+        "coin": "cryptonightv8",
+        "default": false
+    },{
+        "hostname": "lethean.miningpools.pro",
+        "port": 6613,
+        "ssl": false,
+        "allowSelfSignedSSL": false,
+        "share":  0,
+        "username": "iz5SsmUFif3f2ZBrpE7WmfLASjDkYL2QRLG9x7AmN6gjWUPjx6Qgir9LtXYYvy7oFQgCAKkzD3st5HuT6xu6USh8164uHY7jG",
+        "password": "xmrnodeproxy",
+        "keepAlive": true,
+        "algo": "cryptonight/1",
+        "coin": "cryptonightv8",
+        "default": false
+    }],
+    "listeningPorts": [{
+        "port": 11114,
+        "ssl": false,
+        "diff": 500,
+        "coin": "cryptonightv8"
+    }, {
+        "port": 11115,
+        "ssl": false,
+        "diff": 5000,
+        "coin": "cryptonightv8"
+    }, {
+        "port": 11116,
+        "ssl": false,
+        "diff": 50000,
+        "coin": "cryptonightv8"
+    }, {
+        "port": 22224,
+        "ssl": false,
+        "diff": 100000,
+        "coin": "cryptonightv8"
+    }, {
+        "port": 22225,
+        "ssl": false,
+        "diff": 200000,
+        "coin": "cryptonightv8"
+    }, {
+        "port": 22226,
+        "ssl": false,
+        "diff": 300000,
+        "coin": "cryptonightv8"
+    }],
+    "bindAddress": "0.0.0.0",
+    "developerShare": 0,
+    "accessControl": {
+        "enabled": false,
+        "controlFile": "accessControl.json"
+    },
+    "httpEnable": true,
+    "httpAddress": "0.0.0.0",
+    "httpPort": "8181",
+    "httpUser": "",
+    "httpPass": "",
+    "addressWorkerID": false,
+    "email": "reservedfeature@gmail.com-60",
+    "minerInactivityTime": 120,
+    "keepOfflineMiners": 0,
+    "refreshTime": 30,
+    "theme": "light",
+    "coinSettings": {
+        "cryptonightv8": {
+            "minDiff": 5000,
+            "maxDiff": 300000,
+            "shareTargetTime": 60
+        },
+        "cryptonightheavy": {
+            "minDiff": 5000,
+            "maxDiff": 500000,
+            "shareTargetTime": 60
+        }
+    }
+}
+
+
