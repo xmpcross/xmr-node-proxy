@@ -84,12 +84,12 @@
     }, {
         "port": 11118,
         "ssl": false,
-        "diff": 500,
+        "diff": 50000,
         "coin": "cryptonighthaven"
     }, {
         "port": 11119,
         "ssl": false,
-        "diff": 50000,
+        "diff": 500,
         "coin": "cryptonighthaven"
     }],
     "bindAddress": "0.0.0.0",
