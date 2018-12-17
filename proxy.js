@@ -242,7 +242,7 @@ function Pool(poolData){
     this.default = poolData.default;
     this.coin = poolData.coin;
     this.pastBlockTemplates = support.circularBuffer(4);
-    this.coinFuncs = require(`./lib/${this.coin}.js`)();
+    this.coinFuncs = require(`./lib/coin.js`)();
     this.activeBlocktemplate = null;
     this.active = true;
     this.sendId = 1;
@@ -816,7 +816,7 @@ function Miner(id, params, ip, pushMessage, portData, minerSocket) {
 
     // Miner Variables
     this.coin = portData.coin;
-    this.coinFuncs = require(`./lib/${this.coin}.js`)();
+    this.coinFuncs = require(`./lib/coin.js`)();
     this.coinSettings = global.config.coinSettings[this.coin];
     this.login = params.login;  // Documentation purposes only.
     this.user = params.login;  // For accessControl and workerStats.
