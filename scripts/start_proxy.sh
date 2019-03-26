@@ -11,4 +11,4 @@ else
     exit;
 fi
 
-DEBUG_COLORS=true DEBUG=*,-axm:profiling,-miners,-pool,-misc pm2 start $PROXY_JS --name=proxy -a
+DEBUG_COLORS=true DEBUG=*,-axm:*,-miners,-pool,-misc pm2 start $PROXY_JS --name=proxy -a
