@@ -1,56 +1,21 @@
 {
     "pools": [{
-        "hostname": "lethean.miningpools.space",
-        "port": 5550,
-        "ssl": false,
-        "allowSelfSignedSSL": false,
-        "share": 50,
-        "username": "iz5SsmUFif3f2ZBrpE7WmfLASjDkYL2QRLG9x7AmN6gjWUPjx6Qgir9LtXYYvy7oFQgCAKkzD3st5HuT6xu6USh8164uHY7jG",
-        "password": "xmrnodeproxy",
-        "keepAlive": true,
-        "coin": "cryptonightv8",
-        "default": true
-    },{
-        "hostname": "graft.miningpools.space",
-        "port": 5555,
-        "ssl": false,
-        "allowSelfSignedSSL": false,
-        "share": 0,
-        "username": "GBP7sqPTfwcRHq58MZpBVK1WGMzL6Mc3LAphg6QX47N9aEqNXfDFk32fjrt6spQYK6Avy6hX8N7anVxx1GK4qPsTPdu8p25",
-        "password": "xmrnodeproxy",
-        "keepAlive": false,
-        "coin": "cryptonightv8",
-        "default": false
-    },{
-        "hostname": "loki.miningpools.space",
-        "port": 6614,
+        "hostname": "lethean.miningpools.pro",
+        "port": 3313,
         "ssl": false,
         "allowSelfSignedSSL": false,
         "share": 100,
-        "username": "L9Xqc2fchCpHBeSCQdUtmcUFocX547oiWKC7VDyHeqhvaL3ifyg1gETi4p4gRJB5TRZYjyeiD646N2johczYAcwY1tkwXXV",
-        "password": "xmrnodeproxy",
-        "keepAlive": false,
-        "cnBlobType": 5,
-        "coin": "cryptonightheavy",
-        "default": true
-    },{
-        "hostname": "haven.miningpools.space",
-        "port": 6612,
-        "ssl": false,
-        "allowSelfSignedSSL": false,
-        "share": 100,
-        "username": "hvxyA9emyEb79wVpNx2oZQVjuaDmKTjpV2DKRXV16shad9ac3vXtWF2FbEzQbpb2etekBZyWwEAUBZq1EF19mtHP3FbuiB9KqU",
+        "username": "iz5SsmUFif3f2ZBrpE7WmfLASjDkYL2QRLG9x7AmN6gjWUPjx6Qgir9LtXYYvy7oFQgCAKkzD3st5HuT6xu6USh8164uHY7jG.100",
         "password": "xmrnodeproxy",
         "keepAlive": true,
-        "cnBlobType": 0,
-        "coin": "cryptonighthaven",
+        "coin": "cryptonightr",
         "default": true
     }],
     "listeningPorts": [{
         "port": 11111,
         "ssl": false,
-        "diff": 500,
-        "coin": "cryptonightv8"
+        "diff": 100,
+        "coin": "cryptonightr"
     }, {
         "port": 11112,
         "ssl": false,
@@ -110,12 +75,20 @@
     "refreshTime": 30,
     "theme": "light",
     "coinSettings": {
+        "cryptonightr": {
+            "algo": "cryptonight",
+            "variant": 13,
+            "minDiff": 100,
+            "maxDiff": 300000,
+            "shareTargetTime": 15,
+            "includeHeight": true
+        },
         "cryptonightv8": {
             "algo": "cryptonight",
             "variant": 8,
-            "minDiff": 50000,
-            "maxDiff": 240000,
-            "shareTargetTime": 60
+            "minDiff": 100,
+            "maxDiff": 300000,
+            "shareTargetTime": 15
         },
         "cryptonightheavy": {
             "algo": "cryptonight_heavy",
@@ -133,4 +106,5 @@
         }
     }
 }
+
 
