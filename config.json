@@ -1,62 +1,61 @@
 {
-    "pools": [{
-        "hostname": "xmr.xmrminingpool.space",
-        "port": 11050,
-        "ssl": false,
-        "allowSelfSignedSSL": false,
-        "share": 100,
-        "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb",
-        "password": "xmrnodeproxy",
-        "keepAlive": true,
-        "coin": "cryptonightr",
-        "default": true
-    }, {
-        "hostname": "vxmr.xmrminingpool.space",
-        "port": 10050,
-        "ssl": false,
-        "allowSelfSignedSSL": false,
-        "share": 100,
-        "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb",
-        "password": "xmrnodeproxy",
-        "keepAlive": true,
-        "coin": "cryptonightr",
-        "default": false
-    }],
-    "listeningPorts": [{
+    "pools": [
+
+
+        {
+            "hostname": "italo.xmrminingpool.space",
+            "port": 15050,
+            "ssl": false,
+            "allowSelfSignedSSL": false,
+            "share": 50,
+            "username": "ipPFrvVnQj2i7LEnTdjJPCQA7h2WUG6eAceQ7DKUwybHAjvd8Ga7NFbQsX25fpE3WRANZ8brRSuvn7rM3x4nJuV12qSuT4pRc",
+            "password": "xmrnodeproxy",
+            "keepAlive": true,
+            "coin": "randomx",
+            "default": true
+        },
+        {
+            "hostname": "monero.xmrminingpool.space",
+            "port": 11250,
+            "ssl": false,
+            "allowSelfSignedSSL": false,
+            "share": 50,
+            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb",
+            "password": "xmrnodeproxy",
+            "keepAlive": true,
+            "coin": "randomx",
+            "default": false
+        }
+    ],
+    "listeningPorts": [
+    {
         "port": 11111,
         "ssl": false,
-        "diff": 50000,
-        "coin": "cryptonightr"
-    }, {
+        "diff": 500,
+        "coin": "randomx"
+    },
+    {
         "port": 11112,
         "ssl": false,
         "diff": 75000,
-        "coin": "cryptonightr"
-    }, {
+        "coin": "randomx"
+    },
+    {
         "port": 11113,
         "ssl": false,
         "diff": 100000,
-        "coin": "cryptonightr"
-    }, {
-        "port": 11114,
-        "ssl": false,
-        "diff": 150000,
-        "coin": "cryptonightr"
-    }, {
-        "port": 11115,
-        "ssl": false,
-        "diff": 800000,
-        "coin": "cryptonightr"
+        "coin": "randomx"
     }],
     "bindAddress": "0.0.0.0",
     "developerShare": 0,
-    "accessControl": {
+    "accessControl":
+    {
         "enabled": false,
         "controlFile": "accessControl.json"
     },
     "httpEnable": true,
     "httpAddress": "0.0.0.0",
-    "httpPort": "8181",
+    "httpPort": "8080",
     "httpUser": "",
     "httpPass": "",
     "addressWorkerID": false,
@@ -65,14 +64,16 @@
     "keepOfflineMiners": 0,
     "refreshTime": 30,
     "theme": "light",
-    "coinSettings": {
-        "cryptonightr": {
-            "algo": "cryptonight",
-            "variant": 13,
-            "minDiff": 50000,
+    "coinSettings":
+    {
+        "randomx":
+        {
+            "algo": "randomx",
+            "variant": 0,
+            "includeHeight": false,
+            "minDiff": 500,
             "maxDiff": 300000,
-            "shareTargetTime": 30,
-            "includeHeight": true
+            "shareTargetTime": 120
         }
     }
 }
