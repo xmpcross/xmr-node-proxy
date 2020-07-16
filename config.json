@@ -3,8 +3,8 @@
 
 
         {
-            "hostname": "italo.xmrminingpool.space",
-            "port": 15050,
+            "hostname": "vmonero.miningpool.space",
+            "port": 10050,
             "ssl": false,
             "allowSelfSignedSSL": false,
             "share": 50,
@@ -15,7 +15,7 @@
             "default": true
         },
         {
-            "hostname": "monero.xmrminingpool.space",
+            "hostname": "monero.miningpool.space",
             "port": 11250,
             "ssl": false,
             "allowSelfSignedSSL": false,
