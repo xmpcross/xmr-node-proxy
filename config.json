@@ -4,27 +4,27 @@
 
         {
             "hostname": "vmonero.miningpool.space",
-            "port": 10050,
+            "port": 7777,
             "ssl": false,
             "allowSelfSignedSSL": false,
-            "share": 50,
-            "username": "ipPFrvVnQj2i7LEnTdjJPCQA7h2WUG6eAceQ7DKUwybHAjvd8Ga7NFbQsX25fpE3WRANZ8brRSuvn7rM3x4nJuV12qSuT4pRc",
-            "password": "xmrnodeproxy",
-            "keepAlive": true,
-            "coin": "randomx",
-            "default": true
-        },
-        {
-            "hostname": "monero.miningpool.space",
-            "port": 11250,
-            "ssl": false,
-            "allowSelfSignedSSL": false,
-            "share": 50,
-            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb",
+            "share": 0,
+            "username": "ipPFrvVnQj2i7LEnTdjJPCQA7h2WUG6eAceQ7DKUwybHAjvd8Ga7NFbQsX25fpE3WRANZ8brRSuvn7rM3x4nJuV12qSuT4pRc.3000000",
             "password": "xmrnodeproxy",
             "keepAlive": true,
             "coin": "randomx",
             "default": false
+        },
+        {
+            "hostname": "monero.miningpool.space",
+            "port": 11280,
+            "ssl": false,
+            "allowSelfSignedSSL": false,
+            "share": 100,
+            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.3000000",
+            "password": "xmrnodeproxy",
+            "keepAlive": true,
+            "coin": "randomx",
+            "default": true
         }
     ],
     "listeningPorts": [
@@ -43,7 +43,7 @@
     {
         "port": 11113,
         "ssl": false,
-        "diff": 100000,
+        "diff": 265000,
         "coin": "randomx"
     }],
     "bindAddress": "0.0.0.0",
@@ -71,9 +71,9 @@
             "algo": "randomx",
             "variant": 0,
             "includeHeight": false,
-            "minDiff": 500,
-            "maxDiff": 300000,
-            "shareTargetTime": 120
+            "minDiff": 265000,
+            "maxDiff": 3000000,
+            "shareTargetTime": 30
         }
     }
 }
