@@ -4,11 +4,11 @@
 
         {
             "hostname": "vmonero.miningpool.space",
-            "port": 7777,
+            "port": 3333,
             "ssl": false,
             "allowSelfSignedSSL": false,
             "share": 0,
-            "username": "ipPFrvVnQj2i7LEnTdjJPCQA7h2WUG6eAceQ7DKUwybHAjvd8Ga7NFbQsX25fpE3WRANZ8brRSuvn7rM3x4nJuV12qSuT4pRc.3000000",
+            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.300000",
             "password": "xmrnodeproxy",
             "keepAlive": true,
             "coin": "randomx",
@@ -16,11 +16,11 @@
         },
         {
             "hostname": "monero.miningpool.space",
-            "port": 11280,
+            "port": 11250,
             "ssl": false,
             "allowSelfSignedSSL": false,
             "share": 100,
-            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.3000000",
+            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.300000",
             "password": "xmrnodeproxy",
             "keepAlive": true,
             "coin": "randomx",
@@ -31,19 +31,19 @@
     {
         "port": 11111,
         "ssl": false,
-        "diff": 500,
+        "diff": 25000,
         "coin": "randomx"
     },
     {
         "port": 11112,
         "ssl": false,
-        "diff": 75000,
+        "diff": 50000,
         "coin": "randomx"
     },
     {
         "port": 11113,
         "ssl": false,
-        "diff": 265000,
+        "diff": 100000,
         "coin": "randomx"
     }],
     "bindAddress": "0.0.0.0",
@@ -71,8 +71,8 @@
             "algo": "randomx",
             "variant": 0,
             "includeHeight": false,
-            "minDiff": 265000,
-            "maxDiff": 3000000,
+            "minDiff": 25000,
+            "maxDiff": 300000,
             "shareTargetTime": 30
         }
     }
