@@ -7,24 +7,24 @@
             "port": 3333,
             "ssl": false,
             "allowSelfSignedSSL": false,
-            "share": 0,
-            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.300000",
+            "share": 100,
+            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.2000000",
             "password": "xmrnodeproxy",
             "keepAlive": true,
             "coin": "randomx",
-            "default": false
+            "default": true
         },
         {
             "hostname": "monero.miningpool.space",
             "port": 11250,
             "ssl": false,
             "allowSelfSignedSSL": false,
-            "share": 100,
-            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.300000",
+            "share": 0,
+            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.2000000",
             "password": "xmrnodeproxy",
             "keepAlive": true,
             "coin": "randomx",
-            "default": true
+            "default": false
         }
     ],
     "listeningPorts": [
@@ -43,7 +43,7 @@
     {
         "port": 11113,
         "ssl": false,
-        "diff": 100000,
+        "diff": 300000,
         "coin": "randomx"
     }],
     "bindAddress": "0.0.0.0",
@@ -71,7 +71,7 @@
             "algo": "randomx",
             "variant": 0,
             "includeHeight": false,
-            "minDiff": 25000,
+            "minDiff": 300000,
             "maxDiff": 300000,
             "shareTargetTime": 30
         }
