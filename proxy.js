@@ -1333,6 +1333,8 @@ if (cluster.isMaster) {
         let argv = require('minimist')(process.argv.slice(2));
         if (typeof argv.workers !== 'undefined') {
             numWorkers = Number(argv.workers);
+        } else if ((typeof global.config.numWorkers != 'undefined') && Number(global.config.numWorkers) > 0) {
+            numWorkers = Number(global.config.numWorkers);
         } else {
             numWorkers = require('os').cpus().length;
         }
