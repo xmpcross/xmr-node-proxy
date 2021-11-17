@@ -7,47 +7,66 @@
             "port": 8885,
             "ssl": false,
             "allowSelfSignedSSL": false,
-            "share": 100,
-            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.270000",
-            "password": "xmrnodeproxy",
-            "keepAlive": true,
-            "coin": "randomx",
-            "default": true
-        },
-        {
-            "hostname": "nodejs.miningpool.space",
-            "port": 9000,
-            "ssl": false,
-            "allowSelfSignedSSL": false,
             "share": 0,
-            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb+270000",
+            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.870000",
             "password": "xmrnodeproxy",
             "keepAlive": true,
             "coin": "randomx",
             "default": false
+        },
+{
+            "hostname": "vmonero.miningpool.space",
+            "port": 7774,
+            "ssl": false,
+            "allowSelfSignedSSL": false,
+            "share": 50,
+            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.870000",
+            "password": "xmrnodeproxy",
+            "keepAlive": true,
+            "coin": "randomx",
+            "default": false
+        },
+{
+            "hostname": "monero.miningpool.space",
+            "port": 7744,
+            "ssl": false,
+            "allowSelfSignedSSL": false,
+            "share": 50,
+            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.870000",
+            "password": "xmrnodeproxy",
+            "keepAlive": true,
+            "coin": "randomx",
+            "default": true
         }
     ],
     "listeningPorts": [{
-            "port": 11111,
+            "port": 1122,
             "ssl": false,
-            "diff": 25000,
+            "diff": 265000,
+            "coin": "randomx"
+        },
+{
+            "port": 1133,
+            "ssl": false,
+            "diff": 275000,
             "coin": "randomx"
         },
         {
-            "port": 11112,
+            "port": 1111,
             "ssl": false,
-            "diff": 265000,
+            "diff": 285000,
             "coin": "randomx"
         },
         {
             "port": 11113,
             "ssl": false,
-            "diff": 265000,
+            "diff": 295000,
             "coin": "randomx"
         }
     ],
     "bindAddress": "0.0.0.0",
     "developerShare": 0,
+    "daemonAddress": "127.0.0.1:18081",
     "accessControl": {
         "enabled": false,
         "controlFile": "accessControl.json"
@@ -68,9 +87,11 @@
             "algo": "randomx",
             "variant": 0,
             "includeHeight": false,
-            "minDiff": 270000,
-            "maxDiff": 270000,
-            "shareTargetTime": 60
+            "minDiff": 870000,
+            "maxDiff": 870000,
+            "shareTargetTime": 120
         }
+
     }
 }
+
