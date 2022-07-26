@@ -161,3 +161,4 @@ Please contact Snipa at: proxy_installs@snipanet.com or via IRC on irc.freenode.
 * [itnspool.net](https://itnspool.net)
 
 If you'd like to have your pool added, please make a pull request here, or contact Snipa on IRC!
+# xmr-node-proxy
