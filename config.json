@@ -3,32 +3,8 @@
 
 
         {
-            "hostname": "monkey.miningpool.space",
-            "port": 8885,
-            "ssl": false,
-            "allowSelfSignedSSL": false,
-            "share": 0,
-            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.870000",
-            "password": "xmrnodeproxy",
-            "keepAlive": true,
-            "coin": "randomx",
-            "default": false
-        },
-{
-            "hostname": "vmonero.miningpool.space",
-            "port": 7774,
-            "ssl": false,
-            "allowSelfSignedSSL": false,
-            "share": 50,
-            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.870000",
-            "password": "xmrnodeproxy",
-            "keepAlive": true,
-            "coin": "randomx",
-            "default": false
-        },
-{
             "hostname": "monero.miningpool.space",
-            "port": 7744,
+            "port": 6668,
             "ssl": false,
             "allowSelfSignedSSL": false,
             "share": 50,
@@ -37,6 +13,30 @@
             "keepAlive": true,
             "coin": "randomx",
             "default": true
+        },
+        {
+            "hostname": "vmonero.miningpool.space",
+            "port": 6667,
+            "ssl": false,
+            "allowSelfSignedSSL": false,
+            "share": 50,
+            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.870000",
+            "password": "xmrnodeproxy",
+            "keepAlive": true,
+            "coin": "randomx",
+            "default": false
+        },
+        {
+            "hostname": "monkey.miningpool.space",
+            "port": 6669,
+            "ssl": false,
+            "allowSelfSignedSSL": false,
+            "share": 0,
+            "username": "47wY1mtxXJrigSFhpFocKMA6NCrHWuL3KDvJbXSCy7su17DkK63vPyLPCmokxnzA93ifiEtNePpe84DyPQtYh6ZdQxZksyb.870000",
+            "password": "xmrnodeproxy",
+            "keepAlive": true,
+            "coin": "randomx",
+            "default": false
         }
     ],
     "listeningPorts": [{
@@ -45,7 +45,7 @@
             "diff": 265000,
             "coin": "randomx"
         },
-{
+        {
             "port": 1133,
             "ssl": false,
             "diff": 275000,
@@ -87,11 +87,10 @@
             "algo": "randomx",
             "variant": 0,
             "includeHeight": false,
-            "minDiff": 870000,
-            "maxDiff": 870000,
-            "shareTargetTime": 120
+            "minDiff": 265000,
+            "maxDiff": 400000,
+            "shareTargetTime": 30
         }
 
     }
 }
-
